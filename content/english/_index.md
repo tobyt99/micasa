@@ -25,23 +25,23 @@ partner:
 ################################ Features ###############################
 feature:
   enable : true
-  subtitle : "fetures"
-  title : "exclusive features"
+  subtitle : ""
+  title : "Key Audiences"
   feature_item:
     # feature item loop
-    - name : "Free Trial"
+    - name : "Developers"
       image : "images/feature/feature-1.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+      content : "Software developers: Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
       
     # feature item loop
-    - name : "No Setup"
+    - name : "Bill payers"
       image : "images/feature/feature-2.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+      content : "Bill payers: Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
 
     # feature item loop
-    - name : "Optimized Data"
+    - name : "Electricians"
       image : "images/feature/feature-3.png"
-      content : "Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
+      content : "**Electricians**: Lorem ipsum dolor sit amet consectetur elit sed do eiusmod tempor incididunt labore dolore magna."
 
 ##################################### About #############################
 about:
@@ -49,10 +49,9 @@ about:
   about_item:
     # about item loop
     - image : "images/about/about-1.png"
-      subtitle : "about agico"
-      title : "Eausmod tempor magna nostrud exercitation"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
+      subtitle : ""
+      title : "Enabling domestic decision making "
+      content : "Providing baseline energy data will allow consumers to make much better informed decisions around what areas of their lives they can make changes incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
       button:
         enable : true
@@ -61,10 +60,9 @@ about:
         
     # about item loop
     - image : "images/about/about-2.png"
-      subtitle : "about agico"
-      title : "Rehenderit volupate velit proident sunt culpa"
-      content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
+      subtitle : ""
+      title : "To support automated energy decision making"
+      content : "Once you have the data then either you, or a more automated AI based decision engines can use the data to make better decisions and save energy.incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
       button:
         enable : true
@@ -76,18 +74,16 @@ promo_video:
   enable : true
   video_thumbnail : "images/check-video.png"
   video_link : "https://www.youtube.com/embed/nqye02H_H6I?autoplay=1"
-  subtitle : "Check Video"
-  title : "Best Way to Chat Your Customers."
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi aliquip commodo consequat. duis aute.
-  
-
+  subtitle : "Watch now"
+  title : "Build your energy balance sheet"
+  content : "We call it an energy audit and you can start right now.  Take a look at the various ways that you can help.  
   Reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur sint occaecat cupidatat non proident."
 
 # testimonial
 testimonial:
   enable : true
-  subtitle : "testimonial"
-  title : "What Our Clients Says?"
+  subtitle : "survey"
+  title : "How do you feel?"
   bg_image : "images/background/testimonial.jpg"
   testimonial_item:
     # testimonial item loop
@@ -141,7 +137,7 @@ download:
     
 ############################## pricing ###########################
 pricing:
-  enable : true
+  enable : false
   section : "pricing"
   show_items : 3
   # pricing item comes from "content/*/pricing.md"

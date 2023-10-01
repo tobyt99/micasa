@@ -28,10 +28,10 @@ mainSections = ["blog"]
 image_gallery = false
 
 # contact form action
-contact_form_action = "#" # contact form works with [https://airform.io/] or [https://formspree.io]
+contact_form_action = "https://airform.io/toby@micasa.so" # contact form works with [https://airform.io/] or [https://formspree.io]
 
 # google tag manager, see https://developers.google.com/tag-manager/
-google_tag_manager = "" # example: G-XXXXXXXXXX
+google_tag_manager = "G-SZWBS2DZWT" # example: G-XXXXXXXXXX
 google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
@@ -53,14 +53,14 @@ link = "#"
 
 # contact info
 [contact_info]
-address = "9567 Turner Trace Apt. 466 North Willie, BC C3G8A4"
-mobile = "+211234565523"
-email = "info@agico.com"
+address = "The Studio, Shapley Hill, Hook, RG27 8BU"
+mobile = "+447984613380"
+email = "info@micasa.so"
 
 # google_map
 [google_map]
 enable = true
-embed_url = "https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d193559.60513193885!2d-74.07513185946965!3d40.709896425630156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1677481601686!5m2!1sen!2sbd"
+embed_url = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4991.219109372149!2d-0.9179792974401226!3d51.281505787050996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487428ebec448357%3A0x7032ec397465f051!2sWinchfield%2C%20Hook%20RG27%208BU!5e0!3m2!1sen!2suk!4v1696174338799!5m2!1sen!2suk"
 
 # Subscription
 [subscription]
