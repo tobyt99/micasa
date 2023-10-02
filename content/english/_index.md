@@ -20,7 +20,6 @@ partner:
   - "images/partner/client-logo-2.png"
   - "images/partner/client-logo-3.png"
   - "images/partner/client-logo-4.png"
-  - "images/partner/client-logo-5.png"
 
 ################################ Features ###############################
 feature:
@@ -50,7 +49,7 @@ about:
     # about item loop
     - image : "images/about/about-1.png"
       subtitle : ""
-      title : "Enabling domestic decision making "
+      title : "Data collection and baselining"
       content : "Providing baseline energy data will allow consumers to make much better informed decisions around what areas of their lives they can make changes incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
       button:
@@ -61,14 +60,24 @@ about:
     # about item loop
     - image : "images/about/about-2.png"
       subtitle : ""
-      title : "To support automated energy decision making"
+      title : "Continious feedback: installation"
       content : "Once you have the data then either you, or a more automated AI based decision engines can use the data to make better decisions and save energy.incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
               exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
       button:
         enable : true
         label : "read more"
         link : "about/"
-
+        
+    # about item loop
+    - image : "images/about/about-2.png"
+      subtitle : ""
+      title : "Automation and optimisation"
+      content : "Once you have the data then either you, or a more automated AI based decision engines can use the data to make better decisions and save energy.incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud
+              exercitation ullamco laboris nisi aliquip commodo consequat. duis aute."
+      button:
+        enable : true
+        label : "read more"
+        link : "about/"
 ############################ video ###############################
 promo_video:
   enable : true
