@@ -31,14 +31,14 @@ These are a basic way for you to "see" what's happening on your meter.  Usually 
 
 Luckily, the SMETS2 specification includes the ability for consumers to connect third-party energy management and monitoring services. It is this capability that we can leverage to get a picture of our own usage.  
 
-Once you have a smart meter, you need to headover to https://glowmarkt.com/bright and download the Bright app.  When you sign up this gives the app's parent hildebrand access to you meter data and immediately lets them put the IHD data on your phone.  With an account you also now have access to their web api which will let you access your own data in the cloud.
+Once you have a smart meter, you need to headover to https://glowmarkt.com/bright and download the Bright app.  When you sign up this gives the app's parent [Hidebrand](https://www.hildebrand.co.uk/) access to you meter data and immediately lets them put the IHD data on your phone.  With an account you also now have access to their web api which will let you access your own data in the cloud.
 
 ----
-What follows is some investigation work that I undertook using home assistant to try and figure out if the data is the same from these 3 different sources.
+What follows is some investigation we undertook using home assistant to try and figure out the data data accuracy from hildebrand's 3 different sources.
 
 ###### TLDR: it's close enough that it doesn't matter for most people.  
 
-[Hidebrant](https://www.hildebrand.co.uk/) offer 3 ifferent ways to access you meter data:
+[Hidebrand](https://www.hildebrand.co.uk/) offer 3 different ways to access you meter data:
 
 1. Through their app.
 2. Through their web api.
@@ -73,4 +73,4 @@ When looked at hourly the web source shows some "catching up" throughout the day
 | App    | 22.43 | 6.17 | 0          |
 | Web    | 22.96 | 6.32 | 2.4%       |
 
-Although good enough, if you are looking to get exact real-time useage then a seperate CAD device in your home will give you the most accurate picture of exactly how much energy you are using now.  For maximum utility you want to capture this info as a "stream" so that you can compare it with other times of day or days of week or even look at the impact of seasonailty.   There are plenty of online articles about using Hildebrand's CAD with MQTT and home assistant to achieve this.
+Although good enough, if you are looking to get exact real-time useage then a seperate CAD device in your home will give you the most accurate picture of exactly how much energy you are using now.  For maximum utility you want to capture this info as a "stream" so that you can compare it with other times of day or days of week or even look at the impact of seasonailty.   There are plenty of online articles about using [Hildebrand's CAD](https://shop.glowmarkt.com/) with MQTT and home assistant to achieve this.
