@@ -2,15 +2,15 @@
 title: "SMART Energy consumption - claim your data"
 date: 2023-10-08T09:51:57+06:00
 # watermark text
-watermark: "MQTT"
+watermark: "DATA"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "Cupidatat non proident sunt culpa qui officia deserunt mollit <br> anim idest laborum sed ut perspiciatis."
+description : "If you have a smart meter you can start tracking your home's energy usage over time - for free.  The free option relies on the cloud, but you can also monitor your useage locally with a CAD. "
 # post image
 image : "images/blog/23108/post-image.jpg"
 # post author
-author : "Toby"
+author : "TobyT"
 # post categories
 categories: ["Data Collecting"]
 # post tags
@@ -25,7 +25,7 @@ About 50% of UK homes have installed smart energy meters.  The picture is a bit 
 Nowadays, if you ask for a meter to be installed it will be a SMETS2 version, which is good for consumers and will help us build a picture of our energy use in real time.
 It is very likely that your energy supplier will offer to install an In-Home-Display (IHD):
 
- ![typical fear meter display](/images/blog/23108/idh.webp)
+ {{< image src="images/blog/23108/idh.webp" >}}
 
 These are a basic way for you to "see" what's happening on your meter.  Usually offering you either a usage or cost based view of your energy consumption on a today/week/month basis.  A little "fear" meter that doesn't offer anything useful (like data export or vs standard comparison).    
 
@@ -34,12 +34,11 @@ Luckily, the SMETS2 specification includes the ability for consumers to connect 
 Once you have a smart meter, you need to headover to https://glowmarkt.com/bright and download the Bright app.  When you sign up this gives the app's parent hildebrand access to you meter data and immediately lets them put the IHD data on your phone.  With an account you also now have access to their web api which will let you access your own data in the cloud.
 
 ----
-
 What follows is some investigation work that I undertook using home assistant to try and figure out if the data is the same from these 3 different sources.
 
-#TLDR: it's close enough that it doesn't matter for most people.  
+###### TLDR: it's close enough that it doesn't matter for most people.  
 
-Hidebrant offer 3 ifferent ways to access you meter data:
+[Hidebrant](https://www.hildebrand.co.uk/) offer 3 ifferent ways to access you meter data:
 
 1. Through their app.
 2. Through their web api.
@@ -49,20 +48,22 @@ Since I have all three, I wanted to know how accurate each one is for the purpos
 
 So I took a random Sunday and compared in the data:
 
-From the app:
-![Reported hourly usage (mobile app)](/images/blog/23108/Bright_app.png)
+**Data from the app:**
+
+{{< image src="images/blog/23108/bright-app.jpg" >}}
+
 The usage looks similar to the locally souced data from the CAD and the app also provides the hourly energy in either kWh or £ cost. 
 
-From the local CAD device:
- ![reported hourly usage (CAD)](/images/blog/23108/MQTT%208%20oct.png)
+**From the local CAD device:**
+{{< image src="images/blog/23108/MQTT-8-oct.png" >}}
 Using the CAD to output the data to home assistant it matches closely the reported usage in the app.
 
-From the web api:
- ![reported hourly usage (cloud)](/images/blog/23108/micasa%208%20oct.png)
+**From the web api:**
+{{< image src="images/blog/23108/micasa-8-oct.png" >}}
  It looks similar but not exactly so.
  
 When you plot the 3 sources of data (reporting on the same consumption) you get following:
- ![Comparison of Hildebrand DCC data](/images/blog/23108/Comparison.png)
+ {{< image src="images/blog/23108/comparison.png" >}}
  
 When looked at hourly the web source shows some "catching up" throughout the day overall it is close enough to the daily consumption (2.4%) that we can confidently use it for our purposes.  
  
