@@ -15,7 +15,7 @@
           {{ end }}
           <div class="media-body text-sm-left mb-4 mb-sm-0">
             <h6 class="mt-0 mb-1">{{ .Title }}</h6>
-            <p class="mb-0 text-gray">{{ .Params.manufacturer }} | {{ .Params.Job_category }} | <span> {{ with .Params.Image1 }} {{ partial "image.html" (dict "Src" . "Alt" "rating" "Class" `me-sm-3 mb-4 mb-sm-0` "Size" "100x" "Webp" false) }} {{ end }} </span> | {{.PublishDate.Format "06 Jan 2006" }}</p>
+            <p class="mb-0 text-gray">{{ .Params.Job_category }} | <span> {{ .Params.manufacturer }} </span>| {{ .Params.Image1 }} | {{.PublishDate.Format "06 Jan 2006" }}</p>
           </div>
           <a href="{{ .Permalink }}" class="btn btn-sm btn-outline-primary ms-lg-auto">{{ i18n "apply_now" }}</a>
         </div>

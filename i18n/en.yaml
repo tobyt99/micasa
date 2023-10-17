@@ -1,26 +1,29 @@
 - id: career_subtitle
-  translation: Best Jobs
+  translation: Product Reviews
   
 - id: career_title
-  translation: Featured Jobs
+  translation: Recent reviews
 
 - id: apply_now
-  translation: Apply Now
+  translation: Read more
 
 - id: job_details
-  translation: Job Details
+  translation: Quick View
 
 - id: location
-  translation: Location
+  translation: Web link
 
 - id: job_category
-  translation: Job Category
+  translation: Device Category
 
 - id: job_type
-  translation: Job Type
+  translation: Rating
+
+- id: power_consumption
+  translation: Power Consumption
 
 - id: posted_date
-  translation: Posted Date
+  translation: Reviewed
 
 - id: keep_in_touch
   translation: Keep In Touch

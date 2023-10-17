@@ -52,10 +52,6 @@ hasChildren = true
 
 #Footer menu
 [[footer]]
-name = "Company History"
-URL = "about/"
-
-[[footer]]
 name = "About us"
 URL = "about/"
 
