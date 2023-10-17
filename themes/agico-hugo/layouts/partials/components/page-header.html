@@ -19,7 +19,7 @@
                     end
                     }}</a>
                 </li>
-                {{ if or (eq .Section "post") (eq .Section "blog") (eq .Section "career") }}
+                {{ if or (eq .Section "post") (eq .Section "blog") (eq .Section "career") (eq .Section "reviews") }}
                 <li class="breadcrumb-item text-white" aria-current="page">{{ .Params.watermark }}</li>
                 {{ else }}
                 <li class="breadcrumb-item text-white" aria-current="page">{{ .Title }}</li>

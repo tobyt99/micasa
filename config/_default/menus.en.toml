@@ -32,8 +32,8 @@ hasChildren = true
 
   [[main]]
   parent = "Pages"
-  name = "Career"
-  URL = "career/"
+  name = "Reviews"
+  URL = "reviews/"
   
   [[main]]
   parent = "Pages"

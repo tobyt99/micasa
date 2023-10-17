@@ -2,7 +2,7 @@
 title: "Localbytes: smart plugs - best UK tasmota WiFi devices"
 date: 2019-04-10T09:51:57+06:00
 # watermark text
-watermark : "Localbytes"
+watermark: "Localbytes"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
