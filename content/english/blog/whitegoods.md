@@ -6,7 +6,7 @@ watermark: "Blog"
 # page header background image
 page_header_image: "images/background/about.jpg"
 # meta description
-description : "The smart home industry has long been plagued by fragmentation, with devices from different manufacturers often incompatible with each other. This has made it difficult and frustrating for consumers to build a cohesive smart home system.."
+description : "This extensive blog post aims to delve into the pitfalls of closed proprietary systems, using LG's "smart washing machines" as a case study."
 # post image
 image : "images/blog/whitegoods.jpg"
 # post author
