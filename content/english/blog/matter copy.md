@@ -1,6 +1,6 @@
 ---
 title: "Is Matter - The Future of Smart Home Technology?"
-date: 2023-11-10T09:51:57+06:00
+date: 2024-04-10T09:51:57+06:00
 # watermark text
 watermark: "Blog"
 # page header background image
