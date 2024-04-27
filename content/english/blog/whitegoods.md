@@ -1,5 +1,5 @@
 ---
-title: "Is Matter - The Future of Smart Home Technology?"
+title: "Unlocking Possibilities: Embracing Openness in Smart Appliances"
 date: 2024-04-10T09:51:57+06:00
 # watermark text
 watermark: "Blog"
@@ -8,13 +8,13 @@ page_header_image: "images/background/about.jpg"
 # meta description
 description : "The smart home industry has long been plagued by fragmentation, with devices from different manufacturers often incompatible with each other. This has made it difficult and frustrating for consumers to build a cohesive smart home system.."
 # post image
-image : "images/blog/matter.jpg"
+image : "images/blog/whitegoods.jpeg"
 # post author
 author : "TobyT"
 # post categories
 categories: ["Standards", "Technologies"]
 # post tags
-tags: ["matter","standards"]
+tags: ["standards"]
 # type
 type : "post"
 ---
